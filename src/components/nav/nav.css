@@ -1,0 +1,52 @@
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+.navbar {
+    padding: 5px !important;
+}
+.navbar-brand .logo {
+    width: 60px;
+}
+
+/* Greeting */
+.greeting {
+    color: #2699FB;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.greeting:hover, .greeting:active, .greeting:focus {
+    color: #2699FB;
+}
+.down {
+    width: 15px;
+    margin-bottom: 2px;
+}
+
+/* Notification */
+.notification-icon {
+    width: 16px;
+    margin-bottom: 5px;
+}
+
+/* Search */
+.main {
+    min-width: 250px;
+}
+.form-group {
+    position: relative;
+    min-width: 250px;
+}
+.form-group .form-control {
+    color: #808080;
+    font-size: 12px;
+    min-width: 250px;
+    height: 36px;
+    border: 1px solid #b0b0b0;
+}
+.form-group .search-icon {
+    position: absolute;
+    right: 8px;
+    width: 16px;
+    top: 10px;
+}

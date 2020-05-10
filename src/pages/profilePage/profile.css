@@ -1,0 +1,31 @@
+.profilePage .profile-header {
+    border-bottom: 1px solid #e2e3e7;
+}
+.profilePage .profile-title {
+    color: #038147;
+    text-align: left;
+}
+.profilePage .profile-desc {
+    color: #7c7c7f;
+    font-size: 12px;
+    text-align: left;
+}
+.profilePage .card-body {
+    padding: 30px 60px !important;
+}
+.profilePage .rounded-circle {
+    border-radius: 50% !important;
+}
+.profilePage .card-title {
+    text-align: left;
+    color: #000;
+    display: inline-block;
+}
+.profilePage .location {
+    font-size: 10px;
+    color: #6f6f6f;
+}
+.profilePage .card-text {
+    text-align: left;
+    margin-bottom: 3px;
+}

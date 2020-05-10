@@ -1,0 +1,36 @@
+.card-body {
+    box-shadow: 2px 2px 4px 1px #d9d5d5;
+    padding: 11px 18px !important;
+}
+.card-title {
+    color: #2699fb;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px !important;
+}
+.card-text {
+    color: #6f6f6f;
+    font-size: 11px;
+}
+.separator {
+    color: #d3d3d3;
+}
+.status {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.rejected {
+    color: #ff6464;
+}
+.shortlisted {
+    color: #ffd391;
+}
+.pending {
+    color: #56d0e9;
+}
+.status-icon {
+    width: 15px;
+}
