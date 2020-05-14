@@ -258,6 +258,17 @@ const Example = (props) => {
             </Col>
 
           </Row>
+
+          <Row>
+            <Col sm="12" className="d-flex justify-content-end mt-30 mb-30">
+              <div className="secondary-button">
+                <Button className="mr-2">Cancel</Button>
+              </div>
+              <div className="main-button">
+                <Button className="mr-2">Save</Button>
+              </div>
+            </Col>
+          </Row>
         </TabPane>
         <TabPane tabId="2">
           <Row>
@@ -466,6 +477,17 @@ const Example = (props) => {
             </Col>
 
           </Row>
+
+          <Row>
+            <Col sm="12" className="d-flex justify-content-end mt-30 mb-30">
+              <div className="secondary-button">
+                <Button className="mr-2">Cancel</Button>
+              </div>
+              <div className="main-button">
+                <Button className="mr-2">Save</Button>
+              </div>
+            </Col>
+          </Row>
         </TabPane>
 
         <TabPane tabId="3">
@@ -626,6 +648,17 @@ const Example = (props) => {
               </div>
             </Col>
           </Row>
+
+          <Row>
+            <Col sm="12" className="d-flex justify-content-end mt-30 mb-30">
+              <div className="secondary-button">
+                <Button className="mr-2">Cancel</Button>
+              </div>
+              <div className="main-button">
+                <Button className="mr-2">Save</Button>
+              </div>
+            </Col>
+          </Row>
         </TabPane>
 
         <TabPane tabId="4">
@@ -765,7 +798,7 @@ const Example = (props) => {
               </Row>
 
               <Row>
-                <Col sm="10" className="d-flex justify-content-center mt-20 add-button">
+                <Col sm="10" className="d-flex justify-content-center mt-20 main-button">
                   <Button>Add Another Skill</Button>
                 </Col>
               </Row>
@@ -774,6 +807,17 @@ const Example = (props) => {
             <Col sm="4" className="mt-80">
               <div>
                 <img src={documents} className="mr-4" alt="" />
+              </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col sm="12" className="d-flex justify-content-end mt-30 mb-30">
+              <div className="secondary-button">
+                <Button className="mr-2">Cancel</Button>
+              </div>
+              <div className="main-button">
+                <Button className="mr-2">Save</Button>
               </div>
             </Col>
           </Row>
@@ -852,7 +896,7 @@ const Example = (props) => {
                       <Input placeholder="Main Dutes" />
                     </InputGroup>
                   </Col>
-                  <Col sm="4" className="d-flex justify-content-start add-button">
+                  <Col sm="4" className="d-flex justify-content-start main-button">
                     <Button>Add More Duty</Button>
                   </Col>
               </Row>
@@ -873,6 +917,17 @@ const Example = (props) => {
             <Col sm="3" className="mt-80">
               <div>
                 <img src={documents} className="mr-4" alt="" />
+              </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col sm="12" className="d-flex justify-content-end mt-30 mb-30">
+              <div className="secondary-button">
+                <Button className="mr-2">Cancel</Button>
+              </div>
+              <div className="main-button">
+                <Button className="mr-2">Save</Button>
               </div>
             </Col>
           </Row>

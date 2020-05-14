@@ -142,3 +142,25 @@ iframe {
 .mb-80 {
   margin-bottom: 80px;
 }
+.main-button button {
+  color: #fff;
+  background-color: #038147;
+  border: 1px solid #038147;
+}
+.main-button button:hover, .main-button button:active, .main-button button:focus {
+  color: #fff;
+  background-color: #069c56;
+  border: 1px solid #069c56;
+  box-shadow: none;
+}
+.secondary-button button {
+  color: #038147;
+  background-color: #fff;
+  border: 1px solid #038147;
+}
+.secondary-button button:hover, .secondary-button button:active, .secondary-button button:focus {
+  color: #fff;
+  background-color: #069c56;
+  border: 1px solid #069c56;
+  box-shadow: none;
+}
