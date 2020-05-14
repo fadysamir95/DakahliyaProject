@@ -5,8 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Montserat", sans-serif;
 }
 * {
   margin: 0px; 
@@ -15,10 +14,11 @@ code {
 }
 body, html {
   height: 100%;
-  font-family: Poppins-Regular, sans-serif;
+  font-family: "Montserat", sans-serif;
+  background-color: #f4f5fd !important;
 }
 a {
-  font-family: Poppins-Regular;
+  font-family: "Montserat", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -27,12 +27,14 @@ a {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
+  cursor: pointer;
 }
 a:focus {
   outline: none !important;
+  text-decoration: none !important;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #6675df;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -92,6 +94,9 @@ button:hover {
 iframe {
   border: none !important;
 }
+.mt-10 {
+  margin-top: 10px;
+}
 .mt-20 {
   margin-top: 20px;
 }
@@ -112,4 +117,28 @@ iframe {
 }
 .mt-80 {
   margin-top: 80px;
+}
+.mb-10 {
+  margin-bottom: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-70 {
+  margin-bottom: 70px;
+}
+.mb-80 {
+  margin-bottom: 80px;
 }

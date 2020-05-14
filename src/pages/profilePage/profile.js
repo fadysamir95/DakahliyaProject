@@ -32,6 +32,7 @@ class Profile extends Component {
                     </div>
                 </div>
             </div>
+
         </div>
       );
     }

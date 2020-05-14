@@ -1,4 +1,5 @@
 import React , { Component } from 'react';
+import { Input, FormGroup } from 'reactstrap';
 import './signup.css';
 import Logo from '../../images/logo.png';
 import Background from '../../images/bg.jpg';
@@ -18,25 +19,30 @@ class Signup extends Component {
                 <span className="signup100-form-title p-b-25">
                   Create Account
                 </span>
-                <div className="wrap-input100 validate-input mb-2">
-                  <input className="input100" type="text" name="fname" />
-                  <span className="label-input100">First Name</span>
+                <div className=" mt-4 mb-2 input">
+                  <FormGroup>
+                    <Input type="text" name="fname" placeholder="First Name" />
+                  </FormGroup>
                 </div>
-                <div className="wrap-input100 validate-input mb-2">
-                  <input className="input100" type="text" name="lname" />
-                  <span className="label-input100">Last Name</span>
+                <div className="mb-2 input">
+                  <FormGroup>
+                    <Input type="text" name="lname" placeholder="Last Name" />
+                  </FormGroup>
                 </div>
-                <div className="wrap-input100 validate-input mb-2">
-                  <input className="input100" type="email" name="email" />
-                  <span className="label-input100">Email</span>
+                <div className="mb-2 input">
+                  <FormGroup>
+                    <Input type="email" name="email" placeholder="Email" />
+                  </FormGroup>
                 </div>
-                <div className="wrap-input100 validate-input mb-2" data-validate="Password is required">
-                  <input className="input100" type="password" name="pass" />
-                  <span className="label-input100">Password</span>
+                <div className="mb-2 input">
+                  <FormGroup>
+                    <Input type="password" name="pass" placeholder="Password" />
+                  </FormGroup>
                 </div>
-                <div className="wrap-input100 validate-input mb-2" data-validate="Password is required">
-                  <input className="input100" type="password" name="confPass" />
-                  <span className="label-input100">Confirm Password</span>
+                <div className="mb-4 input">
+                  <FormGroup>
+                    <Input type="password" name="conf-pass" placeholder="Confirm Password" />
+                  </FormGroup>
                 </div>
                 <div className="container-signup100-form-btn">
                   <button className="signup100-form-btn">

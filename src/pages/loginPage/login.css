@@ -24,6 +24,16 @@
     width: 100%;
     margin: 0 auto;
 }
+.link {
+    color: #038147;
+    font-size: 12px;
+}
+.text {
+    font-size: 13px;
+}
+.remember {
+    cursor: pointer;
+}
 .container-login100 {
     width: 100%;  
     min-height: 100vh;
@@ -190,10 +200,6 @@ input.input100 {
     justify-content: center;
 }
 .login100-form-btn {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +209,7 @@ input.input100 {
     border-radius: 10px;
     background: #038147;
     font-family: 'Montserat', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     line-height: 1.2;
     letter-spacing: 1px;

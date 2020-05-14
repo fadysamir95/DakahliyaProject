@@ -4,12 +4,13 @@ import Logo from '../../images/logo.png';
 import Search from '../../icons/search.svg';
 import Notification from '../../icons/bell.svg';
 import ChevronDown from '../../icons/chevron-down.svg';
+import profileImage from '../../images/profile.jpg';
 
 class Nav extends Component {
   render() {
       return (
           <div>
-              <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <nav className="navbar navbar-expand-lg navbar-light bg-white">
 
                   <div className='container'>
                       <a className="navbar-brand" href="#"><img src={Logo} className='logo'/></a>
@@ -20,7 +21,9 @@ class Nav extends Component {
 
                       <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
-                          <a href='#' className='mr-3 greeting'>Welcome, Mohamed <img className='down' src={ChevronDown} /></a>
+                          <img src={profileImage} className="rounded nav-img mr-2" alt="" />
+
+                          <a href='#' className='mr-3 greeting'>Mohamed Mostafa<img className='down' src={ChevronDown} /></a>
 
                           <a href='#'><img src={Notification} className='mr-3 notification-icon'/></a>
 

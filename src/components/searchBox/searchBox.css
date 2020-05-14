@@ -1,17 +1,72 @@
-.search-box .form-control {
-    height: 65px !important;
+.searchBox-sec {
+    height: 400px;
+    background-image: url('../../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+#overlay {
+    position: absolute;
+    background-color: black;
+    z-index: 0;
+    opacity: 0.4;
+    left: 0;
+    right: 0;
+    height: 400px;
+}
+.searchBox-sec .text {
+    position: relative;
+}
+.searchBox-sec .text p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 90px;
+    font-weight: 600;
+}
+.searchBox-sec .recent {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+.searchBox-sec .recent p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.searchBox-sec .recent .tag {
+    background-color: #46b661;
+    border: 1px solid #46b661;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+.searchBox-sec .search-box .form-control {
+    height: 58px !important;
     width: 700px !important;
     border: 1px solid #b0b0b0;
 }
-.search-box .btn-search {
+.searchBox-sec .search-box .btn-search {
     position: absolute;
     right: 14px;
     width: 100px;
+    background-color: #038147;
+    border-color: #038147;
+    padding: 3px;
 }
-.search-box .form-group .form-control {
+.searchBox-sec .search-box .btn-search:hover, .search-box .btn-search:active, .search-box .btn-search:focus {
+    background-color: #42a075 !important;
+    border-color: #42a075 !important;
+    box-shadow: none;
+}
+.searchBox-sec .search-box .form-group .form-control {
     font-size: 14px;
 }
-.search-hint {
+.searchBox-sec .search-hint {
     position: absolute;
     right: 120px;
     color: #808080;

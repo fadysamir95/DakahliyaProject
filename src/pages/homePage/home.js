@@ -13,8 +13,9 @@ class Home extends Component {
       <div className="Home">
         <Nav />
         <SearchBox />
-        <div className="container">
-          <p className='sec-title mt-60'>Dashboard</p>
+        <div className="container mb-50">
+          <p className="sec-title mt-30">My Dashboard</p>
+          <p className="sec-desc">Check your latest status of the jobs you have applied on</p>
 
           <div className="row mt-30">
             <div className="col-md-3">

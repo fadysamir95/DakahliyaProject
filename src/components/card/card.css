@@ -1,9 +1,10 @@
 .card-body {
     box-shadow: 2px 2px 4px 1px #d9d5d5;
     padding: 11px 18px !important;
+    text-align: left;
 }
 .card-title {
-    color: #2699fb;
+    color: #292929;
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 4px !important;
@@ -11,6 +12,7 @@
 .card-text {
     color: #6f6f6f;
     font-size: 11px;
+    text-align: left;
 }
 .separator {
     color: #d3d3d3;

@@ -1,4 +1,5 @@
 import React , { Component } from 'react';
+import { InputGroup, Input, InputGroupAddon, InputGroupText, FormGroup, Label } from 'reactstrap';
 import './login.css';
 import Logo from '../../images/logo.png';
 import Background from '../../images/bg.jpg';
@@ -18,31 +19,40 @@ class Login extends Component {
                 <span className="login100-form-title p-b-25">
                   Welcome Back
                 </span>
-                <div className="wrap-input100 validate-input mb-2">
-                  <input className="input100" type="text" name="email" />
-                  <span className="label-input100">Email</span>
+                <div className="mb-3 mt-4">
+                  <InputGroup>
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>@</InputGroupText>
+                    </InputGroupAddon>
+                    <Input placeholder="Email" />
+                  </InputGroup>
                 </div>
-                <div className="wrap-input100 validate-input mb-2" data-validate="Password is required">
-                  <input className="input100" type="password" name="pass" />
-                  <span className="label-input100">Password</span>
+                <div className="mb-1" data-validate="Password is required">
+                  <InputGroup>
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>@</InputGroupText>
+                    </InputGroupAddon>
+                    <Input placeholder="Password" />
+                  </InputGroup>
                 </div>
-                <div className="flex-sb-m w-full p-t-3 p-b-32">
-                  <div className="contact100-form-checkbox">
-                    <input className="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" />
-                    <label className="label-checkbox100" htmlFor="ckb1">
-                      Remember me
-                    </label>
-                  </div>
-                  <div>
-                    <a href="#" className="txt1">
-                      Forgot Password?
-                    </a>
-                  </div>
+                <div className="mb-1 float-right">
+                  <a href="#" className="link">Forgot Password ?</a>
+                </div>
+                <div className="mt-4 mb-2 float-left">
+                  <FormGroup check>
+                    <Label check>
+                      <Input type="checkbox" />{' '}
+                      <span className="text remember">Remember me</span>
+                    </Label>
+                  </FormGroup>
                 </div>
                 <div className="container-login100-form-btn">
                   <button className="login100-form-btn">
                     Sign In
                   </button>
+                </div>
+                <div className="mb-1 float-right">
+                  <span className="text">Don't have an account ? </span><a href="#" className="link">Click here to sign up</a>
                 </div>
               </form>
               <div className="login100-more">
